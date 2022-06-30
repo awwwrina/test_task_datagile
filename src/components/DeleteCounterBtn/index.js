@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 
-import { counterDeleted } from "../app/appSlice";
+import { counterDeleted } from "../../store/counterSlice";
 
 const DeleteCounterBtn = ({index}) => {
     const dispatch = useDispatch();

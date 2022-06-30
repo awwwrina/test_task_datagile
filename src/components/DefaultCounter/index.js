@@ -1,9 +1,7 @@
 import { useDispatch, useSelector  } from 'react-redux';
 
-import { valueIncreased, valueReduced } from '../app/appSlice';
-import DeleteCounterBtn from '../deleteCounterBtn/DeleteCounterBtn';
-
-import './defaultCounter.scss'
+import { valueIncreased, valueReduced } from '../../store/counterSlice';
+import DeleteCounterBtn from '../DeleteCounterBtn';
 
 const DefaultCounter = ({value, index}) => {
     const dispatch = useDispatch();
